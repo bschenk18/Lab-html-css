@@ -1,0 +1,24 @@
+* {
+    text-align: center
+}
+img {
+    box-sizing: content-box;  
+    width: 300px;
+    padding: 0px;  
+    border: 10px solid blue;
+  }
+  section{position: relative;
+    animation: myfirst 3s 100;
+    animation-direction: alternate;}
+  @keyframes myfirst {
+    0%   {left: 0px; top: 0px;}
+  25%  {left: 300px; top: 0px;}
+  50%  {left: 300px; top: 300px;}
+  75%  {left: 0px; top: 300px;}
+  100% {left: 0px; top: 0px;}
+  }
+h1 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+}
